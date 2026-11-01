@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>BuildSprint 2026: Code for Everyday India</title>
+  <meta name="description" content="BuildSprint 2026 – 24‑hour hackathon organised by GDG on Campus. Fix a real problem in 24 hours. Free, hybrid, sample prizes. Register now!" />
+  <meta name="theme-color" content="#ffffff" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="BuildSprint 2026: Code for Everyday India" />
+  <meta property="og:description" content="24‑hour GDG hackathon focused on real‑world everyday problems. Free, hybrid, sample prizes. Register today!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:image" content="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='120'%20height='120'%3E%3Ccircle%20cx='60'%20cy='60'%20r='50'%20fill='%231a73e8'/%3E%3Ctext%20x='50%25'%20y='55%25'%20font-size='48'%20text-anchor='middle'%20fill='%23fff'%20font-family='Roboto'%3E🚀%3C/text%3E%3C/svg%3E" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="BuildSprint 2026: Code for Everyday India" />
+  <meta name="twitter:description" content="GDG on Campus hackathon – 24 hours, free, hybrid, sample prizes." />
+  <meta name="twitter:image" content="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='120'%20height='120'%3E%3Ccircle%20cx='60'%20cy='60'%20r='50'%20fill='%231a73e8'/%3E%3Ctext%20x='50%25'%20y='55%25'%20font-size='48'%20text-anchor='middle'%20fill='%23fff'%20font-family='Roboto'%3E🚀%3C/text%3E%3C/svg%3E" />
+  <link rel="canonical" href="https://example.com" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0 0 100 100'%3E%3Ccircle%20cx='50'%20cy='50'%20r='45'%20fill='%231a73e8'/%3E%3Ctext%20x='50%25'%20y='58%25'%20font-size='48'%20text-anchor='middle'%20fill='%23fff'%20font-family='Roboto'%3E🚀%3C/text%3E%3C/svg%3E" type="image/svg+xml" />
+  <!-- Google Fonts: Roboto & Roboto Flex -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Flex:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Accessible Skip link -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Navbar -->
+  <header class="navbar" role="banner">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="BuildSprint 2026 Home">
+        <!-- Four Google coloured dots -->
+        <span class="logo-dots" aria-hidden="true">
+          <span class="dot dot-blue"></span>
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+        </span>
+        <span class="logo-text">BuildSprint 2026</span>
+        <span class="logo-badge">GDG on Campus</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <!-- Nav Links -->
+      <nav id="nav-menu" class="nav-menu" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#tracks" class="nav-link">Tracks</a></li>
+          <li><a href="#schedule" class="nav-link">Schedule</a></li>
+          <li><a href="#prizes" class="nav-link">Prizes</a></li>
+          <li><a href="#sponsors" class="nav-link">Sponsors</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li class="nav-btn-item">
+            <button class="btn btn-primary register-trigger" data-scroll-to="#register">Register</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p class="eyebrow">GDG on Campus · Hackathon</p>
+            <h1 id="hero-title">BuildSprint 2026: Code for Everyday India</h1>
+            <p class="tagline">Fix a real problem in 24 hours.</p>
+            <p class="hero-storyline">
+              Join students, mentors, and developers from across the country for a collaborative 24-hour sprint. Turn grassroots everyday challenges into pragmatic, accessible digital solutions.
+            </p>
+
+            <ul class="event-details" aria-label="Event information">
+              <li>
+                <svg class="icon icon-blue" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span><strong>12–13 Dec 2026</strong>, starts 9:00 AM IST (Reg. closes 5 Dec)</span>
+              </li>
+              <li>
+                <svg class="icon icon-red" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" fill="none"/>
+                </svg>
+                <span>Innovation Hall, Sample Institute of Technology</span>
+              </li>
+              <li>
+                <svg class="icon icon-green" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <line x1="8" y1="21" x2="16" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="12" y1="17" x2="12" y2="21" stroke="currentColor" stroke-width="2"/>
+                </svg>
+                <span><strong>Hybrid</strong> (On-site + Online participation) · Free · Teams of 2–4</span>
+              </li>
+            </ul>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary register-trigger" data-scroll-to="#register">Register Now</button>
+              <button class="btn btn-secondary" data-scroll-to="#schedule">View Schedule</button>
+            </div>
+          </div>
+
+          <!-- Official Clean Google-style Illustration -->
+          <div class="hero-illustration" aria-hidden="true">
+            <svg viewBox="0 0 460 320" width="100%" height="auto" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Background workspace surface -->
+              <rect x="20" y="20" width="420" height="280" rx="16" fill="#F8F9FA" stroke="#DADCE0" stroke-width="2"/>
+              <!-- Browser Header -->
+              <rect x="20" y="20" width="420" height="38" rx="16" fill="#FFFFFF"/>
+              <line x1="20" y1="58" x2="440" y2="58" stroke="#DADCE0" stroke-width="2"/>
+              <!-- Google Window Dots -->
+              <circle cx="44" cy="39" r="5" fill="#EA4335"/>
+              <circle cx="62" cy="39" r="5" fill="#FBBC04"/>
+              <circle cx="80" cy="39" r="5" fill="#34A853"/>
+              <!-- URL bar -->
+              <rect x="105" y="29" width="220" height="20" rx="6" fill="#F1F3F4"/>
+              <text x="115" y="43" fill="#5F6368" font-family="Roboto, sans-serif" font-size="11">buildsprint.gdg.community</text>
+
+              <!-- Laptop Frame -->
+              <rect x="80" y="80" width="300" height="170" rx="10" fill="#FFFFFF" stroke="#DADCE0" stroke-width="2"/>
+              <!-- Laptop Screen content -->
+              <rect x="94" y="94" width="272" height="142" rx="6" fill="#F8F9FA"/>
+              <!-- Code brackets in Google Blue -->
+              <path d="M195 145 L175 165 L195 185" stroke="#1A73E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M265 145 L285 165 L265 185" stroke="#34A853" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="245" y1="140" x2="215" y2="190" stroke="#EA4335" stroke-width="4" stroke-linecap="round"/>
+
+              <!-- Laptop Base -->
+              <path d="M50 252 H410 C410 252 400 270 380 270 H80 C60 270 50 252 50 252 Z" fill="#E8EAED" stroke="#DADCE0" stroke-width="2"/>
+              <rect x="200" y="254" width="60" height="5" rx="2" fill="#BDC1C6"/>
+
+              <!-- Floating mini card: Idea -->
+              <g transform="translate(40, 110)">
+                <rect width="90" height="48" rx="8" fill="#FFFFFF" stroke="#DADCE0" stroke-width="1.5"/>
+                <circle cx="22" cy="24" r="10" fill="#E8F0FE"/>
+                <path d="M22 18 V26 M18 22 H26" stroke="#1A73E8" stroke-width="2" stroke-linecap="round"/>
+                <rect x="38" y="18" width="40" height="5" rx="2" fill="#BDC1C6"/>
+                <rect x="38" y="27" width="26" height="4" rx="2" fill="#E8EAED"/>
+              </g>
+
+              <!-- Floating mini card: Deploy -->
+              <g transform="translate(330, 175)">
+                <rect width="95" height="52" rx="8" fill="#FFFFFF" stroke="#DADCE0" stroke-width="1.5"/>
+                <circle cx="24" cy="26" r="10" fill="#CEEAD6"/>
+                <path d="M19 26 L23 30 L29 21" stroke="#34A853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="42" y="19" width="42" height="5" rx="2" fill="#BDC1C6"/>
+                <rect x="42" y="28" width="30" height="4" rx="2" fill="#E8EAED"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Live Countdown Bar -->
+        <div class="countdown-wrapper" aria-label="Countdown to event kickoff">
+          <p class="countdown-label">Hacking begins 12 Dec 2026, 9:00 AM IST</p>
+          <div class="countdown" aria-live="polite" aria-atomic="true">
+            <div class="count-box">
+              <span class="num" id="days">00</span>
+              <span class="label">Days</span>
+            </div>
+            <div class="count-box">
+              <span class="num" id="hours">00</span>
+              <span class="label">Hours</span>
+            </div>
+            <div class="count-box">
+              <span class="num" id="minutes">00</span>
+              <span class="label">Minutes</span>
+            </div>
+            <div class="count-box">
+              <span class="num" id="seconds">00</span>
+              <span class="label">Seconds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register Section (The ONLY registration form on the page) -->
+    <section id="register" class="section section-surface" aria-labelledby="register-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Registration</p>
+          <h2 id="register-title">Secure Your Seat</h2>
+          <p class="subtitle">Join 200+ students on 12–13 Dec 2026. Free participation · Teams of 2–4 · Hybrid format.</p>
+        </div>
+
+        <div class="register-card-wrapper">
+          <form id="register-form" class="register-form card" novalidate>
+            <div class="form-header-meta">
+              <span class="form-pill">Demo Registration Form</span>
+              <p class="form-notice">Seats are allocated on a rolling review basis until 5 Dec 2026.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-name">Full Name <span class="required">*</span></label>
+              <input type="text" id="reg-name" name="name" placeholder="e.g. Priyanshu Sharma" required minlength="2" autocomplete="name" />
+              <span class="error" id="err-name" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-email">Email Address <span class="required">*</span></label>
+              <input type="email" id="reg-email" name="email" placeholder="e.g. priyanshu@example.edu" required autocomplete="email" />
+              <span class="error" id="err-email" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-college">College / University / Organization <span class="required">*</span></label>
+              <input type="text" id="reg-college" name="college" placeholder="e.g. Sample Institute of Technology" required minlength="2" />
+              <span class="error" id="err-college" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-track">Preferred Track <span class="required">*</span></label>
+              <select id="reg-track" name="track" required>
+                <option value="" disabled selected>Select a track</option>
+                <option value="health">Health &amp; Wellness</option>
+                <option value="education">Inclusive Education</option>
+                <option value="environment">Green &amp; Clean Tech</option>
+                <option value="finance">Financial Inclusion</option>
+              </select>
+              <span class="error" id="err-track" aria-live="polite"></span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-block">Complete Registration</button>
+            </div>
+
+            <div class="success" id="form-success" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Strip / Stats Row -->
+    <section class="trust-strip" aria-labelledby="stats-title">
+      <div class="container">
+        <h2 id="stats-title" class="sr-only">Community Track Record</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-num text-blue">200+</span>
+            <span class="stat-desc">Student Hackers (Sample)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num text-green">30+</span>
+            <span class="stat-desc">Prototypes Built (Sample)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num text-red">24h</span>
+            <span class="stat-desc">Continuous Mentorship</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num text-yellow">100%</span>
+            <span class="stat-desc">Free & Beginner-Friendly</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-surface" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">About BuildSprint</p>
+          <h2 id="about-title">Why join BuildSprint 2026?</h2>
+          <p class="subtitle">A mission-driven hackathon dedicated to practical impact, inclusive tech, and skill-building.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card">
+            <div class="card-icon icon-bg-blue">
+              <svg class="icon icon-blue" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <h3>Practical Mentorship</h3>
+            <p>Direct guidance from experienced GDG mentors, alumni, and industry developers throughout the 24 hours.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon icon-bg-green">
+              <svg class="icon icon-green" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Network & Teams</h3>
+            <p>Meet peers, find teammates, and build lifelong friendships in a friendly and welcoming community space.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon icon-bg-red">
+              <svg class="icon icon-red" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <h3>Real Everyday Challenges</h3>
+            <p>Tackle authentic community problems rather than hypothetical ideas. Focus on usability and real value.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon icon-bg-yellow">
+              <svg class="icon icon-yellow" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <h3>Certificates & Prizes</h3>
+            <p>Sample prize pool, official completion certificates for all participants, and swags from our sample sponsors.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tracks Section -->
+    <section id="tracks" class="section" aria-labelledby="tracks-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Hackathon Tracks</p>
+          <h2 id="tracks-title">Choose your problem domain</h2>
+          <p class="subtitle">Select a focus area for your team. Each track addresses real challenges faced in everyday India.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card track-card" data-track="health">
+            <div class="card-icon icon-bg-blue">
+              <svg class="icon icon-blue" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <h3>Health & Wellness</h3>
+            <p class="track-desc">Bridge access to local health centres, manage essential medicine availability, and build patient literacy tools.</p>
+            <button class="btn btn-secondary choose-track" type="button" aria-label="Choose Health track and go to register form">Choose this track</button>
+          </article>
+
+          <article class="card track-card" data-track="education">
+            <div class="card-icon icon-bg-red">
+              <svg class="icon icon-red" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3>Inclusive Education</h3>
+            <p class="track-desc">Create low-bandwidth learning apps, localized multilingual tools, and accessible classrooms for first-gen learners.</p>
+            <button class="btn btn-secondary choose-track" type="button" aria-label="Choose Education track and go to register form">Choose this track</button>
+          </article>
+
+          <article class="card track-card" data-track="environment">
+            <div class="card-icon icon-bg-green">
+              <svg class="icon icon-green" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2a9.96 9.96 0 0 0-7.07 2.93A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3>Green & Clean Tech</h3>
+            <p class="track-desc">Design solutions for municipal solid waste segregation, groundwater monitoring, and neighborhood solar tracking.</p>
+            <button class="btn btn-secondary choose-track" type="button" aria-label="Choose Environment track and go to register form">Choose this track</button>
+          </article>
+
+          <article class="card track-card" data-track="finance">
+            <div class="card-icon icon-bg-yellow">
+              <svg class="icon icon-yellow" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="5" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                <line x1="2" y1="10" x2="22" y2="10" stroke="currentColor" stroke-width="2"/>
+                <circle cx="7" cy="15" r="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Financial Inclusion</h3>
+            <p class="track-desc">Enable simple digital bookkeeping for street vendors, rural micro-savings tools, and safe fraud-awareness interfaces.</p>
+            <button class="btn btn-secondary choose-track" type="button" aria-label="Choose Finance track and go to register form">Choose this track</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section section-surface" aria-labelledby="schedule-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Event Timeline</p>
+          <h2 id="schedule-title">24 Hours of Building</h2>
+          <p class="subtitle">All sessions take place in Innovation Hall and streamed live on YouTube (IST).</p>
+        </div>
+
+        <div class="schedule-tabs-container">
+          <div class="tabs" role="tablist" aria-label="Hackathon Day Schedule">
+            <button role="tab" aria-selected="true" tabindex="0" id="tab-day1" class="tab active" aria-controls="panel-day1">
+              Day 1 · Saturday, 12 Dec
+            </button>
+            <button role="tab" aria-selected="false" tabindex="-1" id="tab-day2" class="tab" aria-controls="panel-day2">
+              Day 2 · Sunday, 13 Dec
+            </button>
+          </div>
+
+          <div class="tab-panels">
+            <!-- Day 1 Panel -->
+            <div role="tabpanel" id="panel-day1" class="panel active" aria-labelledby="tab-day1">
+              <ul class="timeline">
+                <li class="timeline-item">
+                  <span class="timeline-time">08:00 AM – 09:00 AM</span>
+                  <div class="timeline-content">
+                    <h4>Check-in & Breakfast Networking</h4>
+                    <p>Badge pickup, kit collection, and team formation coffee corner.</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">09:00 AM</span>
+                  <div class="timeline-content highlight-content">
+                    <h4>Opening Ceremony & Sprint Kickoff · Hacking Officially Begins</h4>
+                    <p>Welcome address by GDG Leads; 24-hour hacking window officially starts!</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">11:30 AM – 12:30 PM</span>
+                  <div class="timeline-content">
+                    <h4>Mentor Clinic 1: Problem Validation & Architecture</h4>
+                    <p>Technical architecture reviews with GDG mentor crew.</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">01:30 PM – 02:30 PM</span>
+                  <div class="timeline-content">
+                    <h4>Lunch & Light Lightning Talks</h4>
+                    <p>Sample campus lunch served, 5-min community demos.</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">05:00 PM – 06:30 PM</span>
+                  <div class="timeline-content">
+                    <h4>Mentor Clinic 2: Mid-Sprint Checkpoint</h4>
+                    <p>Testing API integrations and verifying core problem scope.</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">08:30 PM – 09:30 PM</span>
+                  <div class="timeline-content">
+                    <h4>Dinner & Fireside Chat</h4>
+                    <p>Evening fuel and guest AMA with open-source contributors.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Day 2 Panel -->
+            <div role="tabpanel" id="panel-day2" class="panel" aria-labelledby="tab-day2" hidden>
+              <ul class="timeline">
+                <li class="timeline-item">
+                  <span class="timeline-time">07:30 AM – 08:30 AM</span>
+                  <div class="timeline-content">
+                    <h4>Morning Chai & Final Stretch</h4>
+                    <p>Light breakfast and code freeze countdown.</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">09:00 AM</span>
+                  <div class="timeline-content highlight-content">
+                    <h4>Code Freeze & Project Submission</h4>
+                    <p>All commit pushes and demo video submissions closed. Exactly 24 hours of hacking complete!</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">09:30 AM – 12:30 PM</span>
+                  <div class="timeline-content">
+                    <h4>Demo Fair & Jury Evaluation</h4>
+                    <p>Teams present live prototypes at booth stations (3 min demo + 2 min Q&A).</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">12:30 PM – 01:30 PM</span>
+                  <div class="timeline-content">
+                    <h4>Lunch & Jury Deliberation</h4>
+                    <p>Jury scoring collation and community voting.</p>
+                  </div>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-time">02:00 PM – 03:00 PM</span>
+                  <div class="timeline-content">
+                    <h4>Awards Ceremony & Closing Note</h4>
+                    <p>Track winners announcement, trophy distribution, and group photo.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prizes Section -->
+    <section id="prizes" class="section" aria-labelledby="prizes-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Rewards & Recognitions</p>
+          <h2 id="prizes-title">Sample Prize Categories</h2>
+          <p class="subtitle">Every participant receives an official certificate, swag pack, and mentor feedback. (Values labeled sample).</p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card prize-card">
+            <div class="card-icon icon-bg-yellow">
+              <svg class="icon icon-yellow" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.45 1-1 1H8v4h8v-4h-1c-.55 0-1-.45-1-1v-2.34c3.08-.63 5.4-3.3 5.4-6.66V4H5.6v5c0 3.36 2.32 6.03 5.4 6.66z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="prize-tag">First Place</span>
+            <h3>Winner Cup</h3>
+            <p class="prize-val">₹50,000 <small>(Sample)</small></p>
+            <p class="prize-info">Winner trophy, cloud credits, direct fast-track interview with sample partners.</p>
+          </article>
+
+          <article class="card prize-card">
+            <div class="card-icon icon-bg-blue">
+              <svg class="icon icon-blue" viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="8" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="prize-tag">Second Place</span>
+            <h3>Runner Up</h3>
+            <p class="prize-val">₹30,000 <small>(Sample)</small></p>
+            <p class="prize-info">Runner-up trophy, sample developer hardware kit, and mentorship package.</p>
+          </article>
+
+          <article class="card prize-card">
+            <div class="card-icon icon-bg-green">
+              <svg class="icon icon-green" viewBox="0 0 24 24" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="prize-tag">Third Place</span>
+            <h3>Second Runner Up</h3>
+            <p class="prize-val">₹20,000 <small>(Sample)</small></p>
+            <p class="prize-info">Certificate of excellence, sample tech merchandise, and book vouchers.</p>
+          </article>
+
+          <article class="card prize-card">
+            <div class="card-icon icon-bg-red">
+              <svg class="icon icon-red" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <span class="prize-tag">Special Award</span>
+            <h3>Best Social Impact</h3>
+            <p class="prize-val">₹15,000 <small>(Sample)</small></p>
+            <p class="prize-info">Special jury award for the project showing the highest community usefulness.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="section section-surface" aria-labelledby="sponsors-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Community Partners</p>
+          <h2 id="sponsors-title">Supported by Community Sponsors</h2>
+          <p class="subtitle">Thank you to our sample academic, ecosystem, and tooling partners.</p>
+        </div>
+
+        <div class="grid grid-4 sponsor-grid">
+          <div class="card sponsor-card">
+            <div class="sponsor-logo-box">
+              <span class="sponsor-badge">Sample Sponsor · Cloud</span>
+              <p class="sponsor-brand">Sample Cloud Platform</p>
+            </div>
+          </div>
+          <div class="card sponsor-card">
+            <div class="sponsor-logo-box">
+              <span class="sponsor-badge">Sample Sponsor · Tooling</span>
+              <p class="sponsor-brand">Sample Developer Tools</p>
+            </div>
+          </div>
+          <div class="card sponsor-card">
+            <div class="sponsor-logo-box">
+              <span class="sponsor-badge">Sample Sponsor · Academic</span>
+              <p class="sponsor-brand">Sample Institute of Tech</p>
+            </div>
+          </div>
+          <div class="card sponsor-card">
+            <div class="sponsor-logo-box">
+              <span class="sponsor-badge">Sample Sponsor · Community</span>
+              <p class="sponsor-brand">Sample Open Source Hub</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Got Questions?</p>
+          <h2 id="faq-title">Frequently Asked Questions</h2>
+          <p class="subtitle">Everything you need to know before registering for BuildSprint 2026.</p>
+        </div>
+
+        <div class="accordion">
+          <!-- FAQ 1 -->
+          <div class="faq-item card">
+            <button type="button" class="faq-question" id="faq-btn-1" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>Do I need prior hackathon experience?</span>
+              <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <p>No prior experience is necessary! BuildSprint is beginner-friendly. We run introductory ideation workshops and provide 1-on-1 mentor desks throughout the sprint to help first-time participants design, code, and deploy functional prototypes.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item card">
+            <button type="button" class="faq-question" id="faq-btn-2" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>Do I need a team before registering?</span>
+              <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <p>No, you can register individually. Teams must have between 2 to 4 members. If you don't have a team yet, you can connect with other participants in our community channels or join our dedicated team-matching mixer on Saturday morning before hacking kicks off.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item card">
+            <button type="button" class="faq-question" id="faq-btn-3" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>Is participation free?</span>
+              <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <p>Yes, BuildSprint 2026 is 100% free of charge! Thanks to our sample community sponsors, meals, snacks, high-speed Wi-Fi, swag kits, and workshop access are all provided at zero cost for all selected participants.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item card">
+            <button type="button" class="faq-question" id="faq-btn-4" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>Can I join online?</span>
+              <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4" hidden>
+              <p>Yes, BuildSprint is hybrid. Online participants can submit Git repositories, join live mentor breakout rooms on Discord, stream ceremonies on YouTube, and present during the demo evaluation remotely.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item card">
+            <button type="button" class="faq-question" id="faq-btn-5" aria-expanded="false" aria-controls="faq-ans-5">
+              <span>What should I bring or prepare?</span>
+              <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <div class="faq-answer" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <p>On-site participants should bring a laptop, charger, student or government-issued ID card, and any specialized hardware (e.g., IoT microcontrollers) you plan to use. Ahead of time, make sure your development environment and Git tools are set up.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="logo">
+          <span class="logo-dots" aria-hidden="true">
+            <span class="dot dot-blue"></span>
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </span>
+          <span class="logo-text">BuildSprint 2026</span>
+        </div>
+        <p class="community-note">
+          Organised by <strong>GDG on Campus</strong> (sample community chapter). An independent student-led hackathon aimed at solving everyday problems in India.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tracks">Tracks</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect &amp; Contact</h4>
+        <p class="contact-email">Email: <a href="mailto:buildsprint@gdg-sample.org">buildsprint@gdg-sample.org</a></p>
+        <p class="venue-note">Innovation Hall, Sample Institute of Technology</p>
+        <div class="social-links" aria-label="Social media channels">
+          <a href="#" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="BuildSprint on LinkedIn">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="BuildSprint on Instagram">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="BuildSprint on X">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4l16 16m0-16L4 20"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="BuildSprint on Discord">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6a14.5 14.5 0 0 0-4-1.2 11.5 11.5 0 0 0-.5 1.2 13.5 13.5 0 0 0-3 0 11.5 11.5 0 0 0-.5-1.2 14.5 14.5 0 0 0-4 1.2c-2.5 4-3 8-2.5 12a14.6 14.6 0 0 0 4.5 2.3c.3-.5.7-1.1 1-1.6-.5-.2-1-.4-1.5-.7.1-.1.3-.2.4-.3a10.5 10.5 0 0 0 9.2 0c.1.1.3.2.4.3-.5.3-1 .5-1.5.7.3.5.7 1.1 1 1.6 1.4-.7 2.9-1.5 4.5-2.3.5-4-.6-8-2.5-12z"/>
+              <circle cx="9" cy="12" r="1.5" fill="currentColor"/>
+              <circle cx="15" cy="12" r="1.5" fill="currentColor"/>
+            </svg>
+          </a>
+        </div>
+        <p class="social-note">Sample social links</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 BuildSprint: Code for Everyday India. All sample values &amp; branding are fictional for demonstration purposes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
